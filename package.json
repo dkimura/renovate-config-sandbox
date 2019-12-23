@@ -10,7 +10,7 @@
     "@emotion/core": "10.0.22",
     "@emotion/styled": "10.0.23",
     "@sentry/browser": "5.10.1",
-    "antd": "3.26.2",
+    "antd": "3.26.4",
     "apollo-cache-inmemory": "1.6.3",
     "apollo-client": "2.6.7",
     "apollo-link": "1.2.12",
