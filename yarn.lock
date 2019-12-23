@@ -1135,15 +1135,15 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@bundle-analyzer/cli@0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@bundle-analyzer/cli/-/cli-0.5.0.tgz#2f1c7ac20400e459f162f0163f02dd53bf807356"
-  integrity sha512-mwg5XEmtXO4IRJd/5wkRNw9Lbys8DfBEPHmCZuWUSh2cXbOapzkd8VQIckVlHFmS12B+xbuTm4W/RZ6Nz/AA4A==
+"@bundle-analyzer/cli@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@bundle-analyzer/cli/-/cli-0.5.1.tgz#56d7826ac6f884696d88c5fbd3e5b7db14cab733"
+  integrity sha512-S1iMsTNBXoyURNBZ8jOyR7zcK7ksuPi7exRBJWvZJ5IiGcSgHG0ii/e9Xy5xiO27fDciv4kr64l+2UXhOJTR/A==
   dependencies:
-    "@bundle-analyzer/core" "^0.5.0"
+    "@bundle-analyzer/core" "^0.5.1"
     commander "^3.0.1"
 
-"@bundle-analyzer/core@^0.5.0":
+"@bundle-analyzer/core@^0.5.1":
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/@bundle-analyzer/core/-/core-0.5.1.tgz#f993cb89e26602d0d75af73e51b06a4967191b24"
   integrity sha512-E75rX40U6aEW+T/LgWeM2iUGeqzPcxho918KFKvK97PzKh7uRpsHWTm+3S7chQcHAGxGOH3EKdAStPV5TCK7Gg==
