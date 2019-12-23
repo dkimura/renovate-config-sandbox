@@ -8,27 +8,32 @@
   ],
   "packageRules": [
     {
-      "description": "Group packages from ESLint",
       "extends": [
         "monorepo:typescript-eslint"
       ],
-      "packageNames": [
-        "eslint",
-        "prettier"
-      ],
-      "packagePatterns": [
-        "^eslint-config-",
-        "^eslint-plugin-"
-      ]
+      "groupName": "ESLint and Prettier packages",
+      "packageNames": ["eslint", "prettier"],
+      "packagePatterns": ["^eslint-config-", "^eslint-plugin-"]
     },
     {
-      "description": "Group packages from apollo and graphql",
+      "extends": [
+        "monorepo:react",
+        "monorepo:reactrouter"
+      ],
+      "packagePatterns": ["^react-"]
+    },
+    {
+      "groupName": "Webpack packages",
+      "packageNames": ["webpack", "webpack-cli", "webpack-dev-server"],
+      "packagePatterns": ["^-loader"]
+    },
+    {
       "extends": [
         "monorepo:graphql-modules",
         "monorepo:graphqlcodegenerator",
         "packages:apollographql"
       ],
-      "groupName": "graphql-modules monorepo"
+      "groupName": "GraphQL and Apollo packages"
     }
   ]
 }
