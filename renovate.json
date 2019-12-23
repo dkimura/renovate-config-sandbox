@@ -1,7 +1,34 @@
 {
   "extends": [
     "config:base",
+    "monorepo:sentry",
     ":label(renovate)",
+    ":prConcurrentLimitNone",
     ":prHourlyLimitNone"
+  ],
+  "packageRules": [
+    {
+      "description": "Group packages from ESLint",
+      "extends": [
+        "monorepo:typescript-eslint"
+      ],
+      "packageNames": [
+        "eslint",
+        "prettier"
+      ],
+      "packagePatterns": [
+        "^eslint-config-",
+        "^eslint-plugin-"
+      ]
+    },
+    {
+      "description": "Group packages from apollo and graphql",
+      "extends": [
+        "monorepo:graphql-modules",
+        "monorepo:graphqlcodegenerator",
+        "packages:apollographql"
+      ],
+      "groupName": "graphql-modules monorepo"
+    }
   ]
 }
