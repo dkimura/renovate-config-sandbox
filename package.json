@@ -103,7 +103,7 @@
     "babel-jest": "24.8.0",
     "babel-loader": "8.0.5",
     "babel-plugin-emotion": "10.0.23",
-    "babel-plugin-react-remove-properties": "0.2.5",
+    "babel-plugin-react-remove-properties": "0.3.0",
     "babel-plugin-styled-components": "1.10.5",
     "css-loader": "3.3.2",
     "eslint": "6.7.2",
