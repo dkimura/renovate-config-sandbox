@@ -1,7 +1,6 @@
 {
   "extends": [
     "config:base",
-    "monorepo:sentry",
     ":label(renovate)",
     ":prConcurrentLimitNone",
     ":prHourlyLimitNone"
@@ -13,7 +12,7 @@
       ],
       "groupName": "ESLint and Prettier packages",
       "packageNames": ["eslint", "prettier"],
-      "packagePatterns": ["^eslint-config-", "^eslint-plugin-"]
+      "packagePatterns": ["^eslint-config-.*", "^eslint-plugin-.*"]
     },
     {
       "extends": [
@@ -21,7 +20,7 @@
         "monorepo:reactrouter"
       ],
       "groupName": "React packages",
-      "packagePatterns": ["^react-"]
+      "packagePatterns": ["^react-.*"]
     },
     {
       "groupName": "Webpack packages",
