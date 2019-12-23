@@ -121,7 +121,7 @@
     "identity-obj-proxy": "2.0.0",
     "jest": "24.8.0",
     "klank": "0.0.4",
-    "less": "3.10.2",
+    "less": "3.10.3",
     "less-loader": "4.1.0",
     "lint-staged": "9.4.3",
     "mini-css-extract-plugin": "0.8.2",
