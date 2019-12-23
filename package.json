@@ -43,7 +43,7 @@
     "react-slick": "0.25.1",
     "react-spring": "8.0.26",
     "react-use": "13.12.1",
-    "regenerator-runtime": "0.13.2",
+    "regenerator-runtime": "0.13.3",
     "styled-components": "4.4.0",
     "unfetch": "4.0.1",
     "webfontloader": "1.6.27",
