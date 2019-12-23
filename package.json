@@ -42,7 +42,7 @@
     "react-router-dom": "5.1.1",
     "react-slick": "0.25.1",
     "react-spring": "8.0.26",
-    "react-use": "13.12.1",
+    "react-use": "13.12.2",
     "regenerator-runtime": "0.13.2",
     "styled-components": "4.4.0",
     "unfetch": "4.0.1",
