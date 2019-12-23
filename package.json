@@ -130,7 +130,7 @@
     "reg-keygen-git-hash-plugin": "0.7.25",
     "reg-notify-github-plugin": "0.7.26",
     "reg-publish-s3-plugin": "0.7.25",
-    "reg-suit": "0.8.5",
+    "reg-suit": "0.8.6",
     "renovate": "19.89.1",
     "shipjs": "0.11.3",
     "storycap": "2.3.0",
