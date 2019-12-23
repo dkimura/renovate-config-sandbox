@@ -46,7 +46,7 @@
     "regenerator-runtime": "0.13.2",
     "styled-components": "4.4.0",
     "unfetch": "4.0.1",
-    "webfontloader": "1.6.27",
+    "webfontloader": "1.6.28",
     "yup": "0.27.0"
   },
   "devDependencies": {
@@ -94,7 +94,7 @@
     "@types/react-slick": "0.23.3",
     "@types/styled-components": "4.4.0",
     "@types/terser-webpack-plugin": "1.2.1",
-    "@types/webfontloader": "1.6.28",
+    "@types/webfontloader": "1.6.29",
     "@types/webpack": "4.39.9",
     "@types/webpack-dev-server": "3.4.0",
     "@types/yup": "0.26.26",
