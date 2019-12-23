@@ -4094,17 +4094,7 @@ babel-plugin-react-remove-properties@0.2.5:
   resolved "https://registry.yarnpkg.com/babel-plugin-react-remove-properties/-/babel-plugin-react-remove-properties-0.2.5.tgz#c076e1291940c730f4fb7dfb670691fc41787cf8"
   integrity sha1-wHbhKRlAxzD0+337ZwaR/EF4fPg=
 
-babel-plugin-styled-components@1.10.5:
-  version "1.10.5"
-  resolved "https://registry.yarnpkg.com/babel-plugin-styled-components/-/babel-plugin-styled-components-1.10.5.tgz#fc1d0929b8248026985ab312d1fc590d0b3a1ef4"
-  integrity sha512-FmQdLOJ6oPilWEnwf4Yp5guKr0pBYhrmWZDyjBI2Edr91M4yWTHboS8hvwcTnZkF5ZwS7C0uzIqKQiR+vdoqdA==
-  dependencies:
-    "@babel/helper-annotate-as-pure" "^7.0.0"
-    "@babel/helper-module-imports" "^7.0.0"
-    babel-plugin-syntax-jsx "^6.18.0"
-    lodash "^4.17.11"
-
-"babel-plugin-styled-components@>= 1":
+babel-plugin-styled-components@1.10.6, "babel-plugin-styled-components@>= 1":
   version "1.10.6"
   resolved "https://registry.yarnpkg.com/babel-plugin-styled-components/-/babel-plugin-styled-components-1.10.6.tgz#f8782953751115faf09a9f92431436912c34006b"
   integrity sha512-gyQj/Zf1kQti66100PhrCRjI5ldjaze9O0M3emXRPAN80Zsf8+e1thpTpaXJXVHXtaM4/+dJEgZHyS9Its+8SA==
