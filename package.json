@@ -23,7 +23,7 @@
     "faker": "4.0.0",
     "formik": "2.0.7",
     "graphql": "14.5.7",
-    "graphql-tag": "2.10.0",
+    "graphql-tag": "2.10.1",
     "graphql-tools": "4.0.5",
     "history": "4.10.0",
     "i18next": "19.0.1",
