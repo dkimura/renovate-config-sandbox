@@ -34,7 +34,7 @@
     "qs": "6.9.0",
     "react": "16.11.0",
     "react-dom": "16.11.0",
-    "react-gtm-module": "2.0.7",
+    "react-gtm-module": "2.0.8",
     "react-hot-loader": "4.12.17",
     "react-i18next": "11.2.6",
     "react-md-spinner": "0.4.0",
