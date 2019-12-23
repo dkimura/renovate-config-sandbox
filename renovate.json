@@ -20,12 +20,13 @@
         "monorepo:react",
         "monorepo:reactrouter"
       ],
+      "groupName": "React packages",
       "packagePatterns": ["^react-"]
     },
     {
       "groupName": "Webpack packages",
       "packageNames": ["webpack", "webpack-cli", "webpack-dev-server"],
-      "packagePatterns": ["^-loader"]
+      "packagePatterns": ["^.*-loader$"]
     },
     {
       "extends": [
