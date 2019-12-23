@@ -96,7 +96,7 @@
     "@types/terser-webpack-plugin": "1.2.1",
     "@types/webfontloader": "1.6.28",
     "@types/webpack": "4.39.9",
-    "@types/webpack-dev-server": "3.4.0",
+    "@types/webpack-dev-server": "3.9.0",
     "@types/yup": "0.26.26",
     "@typescript-eslint/eslint-plugin": "2.11.0",
     "@typescript-eslint/parser": "2.11.0",
@@ -145,7 +145,7 @@
     "url-loader": "2.3.0",
     "webpack": "4.41.3",
     "webpack-cli": "3.3.9",
-    "webpack-dev-server": "3.10.0"
+    "webpack-dev-server": "3.10.1"
   },
   "scripts": {
     "test": "renovate-config-validator"
