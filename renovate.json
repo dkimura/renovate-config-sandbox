@@ -51,7 +51,11 @@
         "monorepo:graphqlcodegenerator",
         "packages:apollographql"
       ],
-      "groupName": "GraphQL and Apollo packages"
+      "groupName": "GraphQL and Apollo packages",
+      "sourceUrlPrefixes": [
+        "https://togithub.com/graphql/graphql-js",
+        "https://togithub.com/apollostack/graphql-tag"
+      ]
     },
     {
       "groupName": "React packages",
