@@ -1,6 +1,7 @@
 {
   "extends": [
     "config:base",
+    "monorepo:storybook",
     ":label(renovate)",
     ":prConcurrentLimitNone",
     ":prHourlyLimitNone"
@@ -15,21 +16,22 @@
       "groupName": "devDependencies"
     },
     {
+      "extends": ["monorepo:babel"],
+      "groupName": "babel packages",
+      "packageNames": ["core-js", "regenerator-runtime"]
+    },
+    {
       "extends": [
         "packages:eslint",
         "packages:stylelint",
         "packages:tslint"
       ],
-      "groupName": "ESLint and Prettier packages",
+      "groupName": "Linter packages",
+      "packageNames": ["husky", "lint-staged"],
       "packagePatterns": ["^eslint-config-.*", "^eslint-plugin-.*"]
     },
     {
       "groupName": "Babel packages",
-      "packageNames": ["react"],
-      "packagePatterns": ["^react-.*"]
-    },
-    {
-      "groupName": "React packages",
       "packageNames": ["react"],
       "packagePatterns": ["^react-.*"]
     },
@@ -45,6 +47,11 @@
         "packages:apollographql"
       ],
       "groupName": "GraphQL and Apollo packages"
+    },
+    {
+      "groupName": "React packages",
+      "packageNames": ["react"],
+      "packagePatterns": ["^react-.*"]
     }
   ]
 }
