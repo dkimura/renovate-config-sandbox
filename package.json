@@ -37,7 +37,7 @@
     "react-gtm-module": "2.0.7",
     "react-hot-loader": "4.12.17",
     "react-i18next": "11.2.6",
-    "react-md-spinner": "0.4.0",
+    "react-md-spinner": "1.0.0",
     "react-router": "5.1.1",
     "react-router-dom": "5.1.1",
     "react-slick": "0.25.1",
