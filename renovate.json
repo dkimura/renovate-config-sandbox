@@ -7,19 +7,13 @@
   ],
   "packageRules": [
     {
-      "extends": [
-        "monorepo:typescript-eslint"
-      ],
       "groupName": "ESLint and Prettier packages",
       "packageNames": ["eslint", "prettier"],
       "packagePatterns": ["^eslint-config-.*", "^eslint-plugin-.*"]
     },
     {
-      "extends": [
-        "monorepo:react",
-        "monorepo:reactrouter"
-      ],
       "groupName": "React packages",
+      "packageNames": ["react"],
       "packagePatterns": ["^react-.*"]
     },
     {
