@@ -1,7 +1,6 @@
 {
   "extends": [
     "config:base",
-    "monorepo:storybook",
     ":label(renovate)",
     ":prConcurrentLimitNone",
     ":prHourlyLimitNone"
@@ -19,6 +18,10 @@
       "groupName": "Babel packages",
       "packageNames": ["core-js", "regenerator-runtime"],
       "packagePatterns": ["^@babel/"]
+    },
+    {
+      "groupName": "Storybook packages",
+      "packagePatterns": ["^@storybook/"]
     },
     {
       "extends": ["packages:eslint", "packages:stylelint", "packages:tslint"],
