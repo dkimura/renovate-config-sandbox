@@ -17,7 +17,7 @@
     {
       "groupName": "Babel packages",
       "packageNames": ["core-js", "regenerator-runtime"],
-      "packagePatterns": ["^@babel/"]
+      "packagePatterns": ["^@babel/", "^babel-"]
     },
     {
       "groupName": "Storybook packages",
@@ -31,8 +31,15 @@
     },
     {
       "groupName": "Webpack packages",
-      "packageNames": ["webpack", "webpack-cli", "webpack-dev-server"],
-      "packagePatterns": ["^.*-loader"]
+      "packageNames": [
+        "@svgr/webpack",
+        "@types/mini-css-extract-plugin",
+        "mini-css-extract-plugin",
+        "webpack",
+        "webpack-cli",
+        "webpack-dev-server"
+      ],
+      "packagePatterns": ["^.*-loader", "^.*-webpack-plugin", "^@types/webpack"]
     },
     {
       "extends": [
@@ -57,7 +64,7 @@
         "^react-.",
         "^@emotion",
         "^@types/react",
-        "^@testing-library/react-"
+        "^@testing-library/react"
       ]
     }
   ]
