@@ -16,7 +16,7 @@
       "groupName": "devDependencies"
     },
     {
-      "extends": ["monorepo:babel"],
+      "extends": "monorepo:babel",
       "groupName": "Babel packages",
       "packageNames": ["core-js", "regenerator-runtime"]
     },
@@ -27,7 +27,7 @@
         "packages:tslint"
       ],
       "groupName": "Linter packages",
-      "packageNames": ["husky", "lint-staged"],
+      "packageNames": ["prettier", "husky", "lint-staged"],
       "packagePatterns": ["^eslint-config-.*", "^eslint-plugin-.*"]
     },
     {
