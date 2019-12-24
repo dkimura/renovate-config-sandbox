@@ -53,7 +53,7 @@
         "react",
         "styled-components"
       ],
-      "packagePatterns": ["^react-.*", "^@emotion-.*"]
+      "packagePatterns": ["^react-.*", "^@emotion", "^@types/react"]
     }
   ]
 }
