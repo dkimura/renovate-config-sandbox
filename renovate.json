@@ -27,12 +27,12 @@
       "extends": ["packages:eslint", "packages:stylelint", "packages:tslint"],
       "groupName": "Linter packages",
       "packageNames": ["prettier", "husky", "lint-staged"],
-      "packagePatterns": ["^eslint-config-.*", "^eslint-plugin-.*"]
+      "packagePatterns": ["^eslint-config-", "^eslint-plugin-"]
     },
     {
       "groupName": "Webpack packages",
       "packageNames": ["webpack", "webpack-cli", "webpack-dev-server"],
-      "packagePatterns": ["^.*-loader$"]
+      "packagePatterns": ["^.*-loader"]
     },
     {
       "extends": [
@@ -53,7 +53,12 @@
         "react",
         "styled-components"
       ],
-      "packagePatterns": ["^react-.*", "^@emotion", "^@types/react"]
+      "packagePatterns": [
+        "^react-.",
+        "^@emotion",
+        "^@types/react",
+        "^@testing-library/react-"
+      ]
     }
   ]
 }
