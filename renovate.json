@@ -39,7 +39,11 @@
         "webpack-cli",
         "webpack-dev-server"
       ],
-      "packagePatterns": ["^.*-loader", "^.*-webpack-plugin", "^@types/webpack"]
+      "packagePatterns": [
+        "^.*-loader",
+        "^.*-webpack-plugin",
+        "^@types/.*webpack"
+      ]
     },
     {
       "extends": [
@@ -53,6 +57,7 @@
       "groupName": "React packages",
       "packageNames": [
         "@hot-loader/react-dom",
+        "@types/styled-components",
         "formik",
         "history",
         "i18next",
@@ -61,10 +66,10 @@
         "styled-components"
       ],
       "packagePatterns": [
-        "^react-.",
         "^@emotion",
+        "^@testing-library/react",
         "^@types/react",
-        "^@testing-library/react"
+        "^react-."
       ]
     }
   ]
