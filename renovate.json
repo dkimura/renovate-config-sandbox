@@ -7,6 +7,14 @@
   ],
   "packageRules": [
     {
+      "depTypeList": ["dependencies"],
+      "groupName": "dependencies"
+    },
+    {
+      "depTypeList": ["devDependencies"],
+      "groupName": "devDependencies"
+    },
+    {
       "extends": [
         "packages:eslint",
         "packages:stylelint",
@@ -37,14 +45,6 @@
         "packages:apollographql"
       ],
       "groupName": "GraphQL and Apollo packages"
-    },
-    {
-      "depTypeList": ["dependencies"],
-      "groupName": "dependencies"
-    },
-    {
-      "depTypeList": ["devDependencies"],
-      "groupName": "devDependencies"
     }
   ]
 }
