@@ -16,16 +16,12 @@
       "groupName": "devDependencies"
     },
     {
-      "extends": "monorepo:babel",
       "groupName": "Babel packages",
-      "packageNames": ["core-js", "regenerator-runtime"]
+      "packageNames": ["core-js", "regenerator-runtime"],
+      "packagePatterns": ["^@babel-.*"]
     },
     {
-      "extends": [
-        "packages:eslint",
-        "packages:stylelint",
-        "packages:tslint"
-      ],
+      "extends": ["packages:eslint", "packages:stylelint", "packages:tslint"],
       "groupName": "Linter packages",
       "packageNames": ["prettier", "husky", "lint-staged"],
       "packagePatterns": ["^eslint-config-.*", "^eslint-plugin-.*"]
@@ -45,8 +41,16 @@
     },
     {
       "groupName": "React packages",
-      "packageNames": ["react"],
-      "packagePatterns": ["^react-.*"]
+      "packageNames": [
+        "@hot-loader/react-dom",
+        "formik",
+        "history",
+        "i18next",
+        "polished",
+        "react",
+        "styled-components"
+      ],
+      "packagePatterns": ["^react-.*", "^@emotion-.*"]
     }
   ]
 }
