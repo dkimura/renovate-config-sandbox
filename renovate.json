@@ -7,9 +7,18 @@
   ],
   "packageRules": [
     {
+      "extends": [
+        "packages:eslint",
+        "packages:stylelint",
+        "packages:tslint"
+      ],
       "groupName": "ESLint and Prettier packages",
-      "packageNames": ["eslint", "prettier"],
       "packagePatterns": ["^eslint-config-.*", "^eslint-plugin-.*"]
+    },
+    {
+      "groupName": "Babel packages",
+      "packageNames": ["react"],
+      "packagePatterns": ["^react-.*"]
     },
     {
       "groupName": "React packages",
@@ -28,6 +37,14 @@
         "packages:apollographql"
       ],
       "groupName": "GraphQL and Apollo packages"
+    },
+    {
+      "depTypeList": ["dependencies"],
+      "groupName": "dependencies"
+    },
+    {
+      "depTypeList": ["devDependencies"],
+      "groupName": "devDependencies"
     }
   ]
 }
