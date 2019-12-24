@@ -5,6 +5,7 @@
     ":prConcurrentLimitNone",
     ":prHourlyLimitNone"
   ],
+  "separateMajorMinor": false,
   "packageRules": [
     {
       "depTypeList": ["dependencies"],
