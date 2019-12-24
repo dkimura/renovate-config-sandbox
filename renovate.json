@@ -17,7 +17,7 @@
     },
     {
       "extends": ["monorepo:babel"],
-      "groupName": "babel packages",
+      "groupName": "Babel packages",
       "packageNames": ["core-js", "regenerator-runtime"]
     },
     {
@@ -29,11 +29,6 @@
       "groupName": "Linter packages",
       "packageNames": ["husky", "lint-staged"],
       "packagePatterns": ["^eslint-config-.*", "^eslint-plugin-.*"]
-    },
-    {
-      "groupName": "Babel packages",
-      "packageNames": ["react"],
-      "packagePatterns": ["^react-.*"]
     },
     {
       "groupName": "Webpack packages",
