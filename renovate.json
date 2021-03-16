@@ -49,12 +49,13 @@
     {
 
       "groupName": "GraphQL and Apollo packages",
+      "extends": [
+        "packages:apollographql"
+      ],
       "packageNames": [
-        "graphql",
-        "graphql-tag"
+        "graphql"
       ],
       "packagePatterns": [
-        "^@apollo/",
         "^@graphql-codegen/",
         "^apollo-",
         "^graphql-"
