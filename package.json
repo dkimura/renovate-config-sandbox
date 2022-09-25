@@ -27,7 +27,7 @@
     "history": "4.10.0",
     "i18next": "19.0.1",
     "luxon": "1.21.2",
-    "moment": "2.23.0",
+    "moment": "2.29.4",
     "path-to-regexp": "6.0.0",
     "polished": "3.4.1",
     "qs": "6.9.0",
